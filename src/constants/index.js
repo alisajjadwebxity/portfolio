@@ -10,16 +10,16 @@ import {
   php,
   python,
   git,
-  edunet,
+  regalsystems,
   weatherpedia,
   termpw,
   payloadmaster,
-  threejs,
+  linux,
   mhft,
   sketcher,
-  mathwork,
+  etekstudio,
   CompileVortex,
-  eduskill,
+  wooninjas,
 } from "../assets";
 
 export const navLinks = [
@@ -47,11 +47,14 @@ export const services = [
 export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "Rect JS", icon: reactjs },
   { name: "Tailwind CSS", icon: tailwind },
+  { name: "JavaScript", icon: javascript },
+  { name: "WordPress", icon: wordpress },
+  { name: "PHP", icon: php },
+  { name: "React JS", icon: reactjs },
   { name: "Node JS", icon: nodejs },
-  { name: "Three JS", icon: threejs },
+  { name: "Python", icon: python },
+  { name: "Linux", icon: linux },
   { name: "git", icon: git },
 ];
 
@@ -59,7 +62,7 @@ export const experiences = [
   {
     title: "Plugin Developer",
     company_name: "WooNinjas",
-    icon: eduskill,
+    icon: wooninjas,
     iconBg: "#161329",
     date: "Sep 2023 - Continue",
     points: [
@@ -71,7 +74,7 @@ export const experiences = [
   {
     title: "WordPress Developer",
     company_name: "eTekStudio",
-    icon: mathwork,
+    icon: etekstudio,
     iconBg: "#161329",
     date: "Apr 2023 - Sep 2023",
     points: [
@@ -82,7 +85,7 @@ export const experiences = [
   {
     title: "WordPress Developer",
     company_name: "Regal Systems",
-    icon: edunet,
+    icon: regalsystems,
     iconBg: "#161329",
     date: "Jun 2018 - Mar 2023",
     points: ["Work with clients to understand their requirements and provide solutions."],

@@ -1,7 +1,7 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
-import edunet from "./company/edunet.png";
-import eduskill from "./company/eduskill.png";
+import etekstudio from "./company/etekstudio.png";
+import regalsystems from "./company/regalsystems.png";
+import wooninjas from "./company/wooninjas.svg";
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -25,7 +25,7 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
+import linux from "./tech/linux.png";
 
 // Import common assets
 import logo from "./logo.png";
@@ -34,8 +34,8 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
-  edunet,
+  etekstudio,
+  regalsystems,
   python,
   js,
   php,
@@ -48,7 +48,7 @@ export {
   nodejs,
   reactjs,
   tailwind,
-  threejs,
+  linux,
   weatherpedia,
   termpw,
   payloadmaster,
@@ -58,5 +58,5 @@ export {
   logo,
   menu,
   close,
-  eduskill,
+  wooninjas,
 };
