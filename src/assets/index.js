@@ -1,4 +1,5 @@
 // Import company logos
+import freelancer from "./company/freelancer.png";
 import etekstudio from "./company/etekstudio.png";
 import regalsystems from "./company/regalsystems.png";
 import wooninjas from "./company/wooninjas.svg";
@@ -16,6 +17,15 @@ import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
+import baysideceu from "./projects/baysideceu.png";
+import ceucreationsinc from "./projects/ceucreationsinc.png";
+import echelonfront from "./projects/echelonfront.png";
+import elsistemausa from "./projects/elsistemausa.png";
+import etekstudiosite from "./projects/etekstudio.png";
+import globalsmoothsystem from "./projects/globalsmoothsystem.png";
+import habitsfitnessacademy from "./projects/habitsfitnessacademy.png";
+import tukkuruk from "./projects/tukkuruk.png";
+import xfactortrainingsystems from "./projects/xfactortrainingsystems.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -36,6 +46,8 @@ import close from "./close.svg";
 export {
   etekstudio,
   regalsystems,
+  freelancer,
+  wooninjas,
   python,
   js,
   php,
@@ -55,8 +67,16 @@ export {
   mhft,
   sketcher,
   CompileVortex,
+  baysideceu,
+  ceucreationsinc,
+  echelonfront,
+  elsistemausa,
+  etekstudiosite,
+  globalsmoothsystem,
+  habitsfitnessacademy,
+  tukkuruk,
+  xfactortrainingsystems,
   logo,
   menu,
   close,
-  wooninjas,
 };
