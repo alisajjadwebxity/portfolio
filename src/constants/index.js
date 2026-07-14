@@ -14,13 +14,7 @@ import {
   freelancer,
   etekstudio,
   wooninjas,
-  weatherpedia,
-  termpw,
-  payloadmaster,
   linux,
-  mhft,
-  CompileVortex,
-  sketcher,
   baysideceu,
   ceucreationsinc,
   echelonfront,
@@ -111,7 +105,7 @@ export const projects = [
   {
     name: "BaysideCEU",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Developed an auditing platform featuring course schedules, audit reports, and an administrative workflow for submitting course completions to CEBroker for certification processing.",
     tags: [
       { name: "Javascript", color: "pink-text-gradient" },
       { name: "React JS", color: "blue-text-gradient" },
@@ -125,12 +119,12 @@ export const projects = [
   {
     name: "CEU Creations Inc",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Integrated Zoom Webinar hosting and attendance reporting APIs to track participant engagement and automate certification eligibility based on verified session durations.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
       { name: "Custom Events Solution", color: "blue-text-gradient" },
-      { name: "WP Engine Migration", color: "blue-text-gradient" },
+      { name: "WPEngine Migration", color: "blue-text-gradient" },
       { name: "Zoom API", color: "green-text-gradient" },
     ],
     image: ceucreationsinc,
@@ -139,12 +133,12 @@ export const projects = [
   {
     name: "Echelon Front",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "Implemented a custom course enrollment workflow, optimized site performance through audits, and migrated the platform to Cloudways for improved reliability and speed.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
       { name: "Audit & Optimization", color: "green-text-gradient" },
-      { name: "Custom Onboarding Flow", color: "blue-text-gradient" },
+      { name: "Custom Enrollment", color: "blue-text-gradient" },
       { name: "Cloudways Migration", color: "blue-text-gradient" },
     ],
     image: echelonfront,
@@ -152,7 +146,8 @@ export const projects = [
   },
   {
     name: "Elsistema USA",
-    description: "Tool to automate payload creation using the Metasploit framework",
+    description:
+      "Enhanced membership onboarding with custom PMPro workflows, interactive member location mapping, and a tailored job board to streamline community engagement.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
@@ -164,7 +159,8 @@ export const projects = [
   },
   {
     name: "Etek Studio",
-    description: "Tool to automate payload creation using the Metasploit framework",
+    description:
+      "Built a web services agency website with custom pricing components, leveraging Bridge and WPBakery while providing migration and maintenance support.",
     tags: [
       { name: "Javascript", color: "blue-text-gradient" },
       { name: "CSS", color: "green-text-gradient" },
@@ -177,7 +173,8 @@ export const projects = [
   },
   {
     name: "Global Smooth System",
-    description: "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+    description:
+      "Resolved enrollment, login, and onboarding issues by implementing custom workflows while providing continuous maintenance to improve platform stability and usability.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
@@ -189,42 +186,45 @@ export const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Elsistema USA",
-    description: "Tool to automate payload creation using the Metasploit framework",
+    name: "Habits Fitness Academy",
+    description:
+      "Configured affiliate management workflows, resolved platform issues, enhanced overall functionality, and integrated Stripe payouts to automate affiliate payment processing.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
-      { name: "Custom PMPro Add-on", color: "blue-text-gradient" },
-      { name: "Custom Job Board", color: "blue-text-gradient" },
+      { name: "Affiliate Program", color: "blue-text-gradient" },
+      { name: "Stripe API", color: "blue-text-gradient" },
     ],
-    image: elsistemausa,
+    image: habitsfitnessacademy,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Etek Studio",
-    description: "Tool to automate payload creation using the Metasploit framework",
+    name: "Tukkuruk",
+    description:
+      "Developed a rental property platform with WooCommerce integration, e-signature workflows, booking management, and external property listing synchronization.",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-      { name: "WPBakery", color: "pink-text-gradient" },
-      { name: "Maintenance", color: "pink-text-gradient" },
+      { name: "Bootstrap", color: "blue-text-gradient" },
+      { name: "jQuery", color: "blue-text-gradient" },
+      { name: "PHP", color: "green-text-gradient" },
       { name: "Migration", color: "pink-text-gradient" },
+      { name: "Custom WooCommerce Add-on", color: "pink-text-gradient" },
+      { name: "Rest API", color: "pink-text-gradient" },
     ],
-    image: etekstudiosite,
+    image: tukkuruk,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Global Smooth System",
-    description: "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
+    name: "XFactor Training Systems",
+    description:
+      "Built an online coaching platform with custom enrollments, coach interaction tools, practice notes, affiliate management, and Stripe-powered payment processing.",
     tags: [
       { name: "jQuery", color: "pink-text-gradient" },
       { name: "PHP", color: "green-text-gradient" },
-      { name: "Custom Enrollment Flow", color: "blue-text-gradient" },
-      { name: "Maintenance", color: "pink-text-gradient" },
+      { name: "Stripe API", color: "pink-text-gradient" },
+      { name: "CustomBusiness Logic", color: "blue-text-gradient" },
     ],
 
-    image: globalsmoothsystem,
+    image: xfactortrainingsystems,
     source_code_link: "https://github.com/",
   },
 ];

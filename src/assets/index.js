@@ -11,12 +11,6 @@ import wordpress from "./tech-stack/wordpress.png";
 import js from "./tech-stack/js.png";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
 import baysideceu from "./projects/baysideceu.png";
 import ceucreationsinc from "./projects/ceucreationsinc.png";
 import echelonfront from "./projects/echelonfront.png";
@@ -61,12 +55,6 @@ export {
   reactjs,
   tailwind,
   linux,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
   baysideceu,
   ceucreationsinc,
   echelonfront,
