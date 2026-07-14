@@ -76,20 +76,18 @@ const Contact = () => {
           to_email: "lohitkolluri@gmail.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-"
+        "p-gXzzyvEhPaJ0XA-",
       )
-      .then(
-        () => {
-          setLoading(false);
-          setConfirmation("Thank you! I will get back to you as soon as possible.");
+      .then(() => {
+        setLoading(false);
+        setConfirmation("Thank you! I will get back to you as soon as possible.");
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        }
-      )
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      })
       .catch((error) => {
         setLoading(false);
         console.error(error);
@@ -98,8 +96,8 @@ const Contact = () => {
   };
 
   return (
-    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
-      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+    <div className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+      {/* <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
@@ -141,7 +139,7 @@ const Contact = () => {
           </button>
           {confirmation && <p className="text-green-500">{confirmation}</p>}
         </form>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
         <EarthCanvas />
