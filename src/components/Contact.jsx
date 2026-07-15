@@ -67,16 +67,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_r2i0by4",
-        "template_mf5x3bh",
+        "service_r",
+        "template_m",
         {
           from_name: form.name,
-          to_name: "Lohit Kolluri",
+          to_name: "Ali Sajjad",
           from_email: form.email,
-          to_email: "lohitkolluri@gmail.com",
+          to_email: "alisajjad57@outlook.com",
           message: form.message,
         },
-        "p-gXzzyvEhPaJ0XA-",
+        "p-gXXA-",
       )
       .then(() => {
         setLoading(false);
@@ -91,13 +91,13 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.error(error);
-        setConfirmation("Something went wrong. Please try again. :/");
+        setConfirmation("Please email me directly at alisajjad57@outlook.com :/");
       });
   };
 
   return (
-    <div className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
-      {/* <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
@@ -139,7 +139,7 @@ const Contact = () => {
           </button>
           {confirmation && <p className="text-green-500">{confirmation}</p>}
         </form>
-      </motion.div> */}
+      </motion.div>
 
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
         <EarthCanvas />

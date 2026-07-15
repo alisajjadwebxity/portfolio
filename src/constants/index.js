@@ -91,7 +91,7 @@ export const experiences = [
     company_name: "Freelancer",
     icon: freelancer,
     iconBg: "#161329",
-    date: "May 2020 - Mar 2023",
+    date: "May 2019 - Mar 2023",
     points: [
       "Work with clients to understand their requirements and provide solutions.",
       "Convert PSD, Figma, and XD designs into responsive WordPress websites.",
@@ -114,7 +114,7 @@ export const projects = [
       { name: "CEBroker API", color: "green-text-gradient" },
     ],
     image: baysideceu,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://baysideceu.com/",
   },
   {
     name: "CEU Creations Inc",
@@ -128,7 +128,7 @@ export const projects = [
       { name: "Zoom API", color: "green-text-gradient" },
     ],
     image: ceucreationsinc,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://ceucreationsinc.com/",
   },
   {
     name: "Echelon Front",
@@ -142,7 +142,7 @@ export const projects = [
       { name: "Cloudways Migration", color: "blue-text-gradient" },
     ],
     image: echelonfront,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://echelonfront.com/",
   },
   {
     name: "Elsistema USA",
@@ -155,7 +155,7 @@ export const projects = [
       { name: "Custom Job Board", color: "blue-text-gradient" },
     ],
     image: elsistemausa,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://elsistemausa.org/",
   },
   {
     name: "Etek Studio",
@@ -169,7 +169,7 @@ export const projects = [
       { name: "Migration", color: "pink-text-gradient" },
     ],
     image: etekstudiosite,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.etekstudio.com/",
   },
   {
     name: "Global Smooth System",
@@ -183,7 +183,7 @@ export const projects = [
     ],
 
     image: globalsmoothsystem,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://globalsmoothsystem.com/",
   },
   {
     name: "Habits Fitness Academy",
@@ -196,7 +196,7 @@ export const projects = [
       { name: "Stripe API", color: "blue-text-gradient" },
     ],
     image: habitsfitnessacademy,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://habitsfitnessacademy.com/",
   },
   {
     name: "Tukkuruk",
@@ -211,7 +211,7 @@ export const projects = [
       { name: "Rest API", color: "pink-text-gradient" },
     ],
     image: tukkuruk,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://tukkuruk.com/",
   },
   {
     name: "XFactor Training Systems",
@@ -225,6 +225,6 @@ export const projects = [
     ],
 
     image: xfactortrainingsystems,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://xfactortrainingsystems.com/",
   },
 ];
