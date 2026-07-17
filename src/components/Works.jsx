@@ -1,7 +1,5 @@
 import React from "react";
 import { Tilt } from "react-tilt";
-import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { websiteLink } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -10,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring")}>
+    <div>
       <Tilt
         options={{
           max: 45,
@@ -51,22 +49,22 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
-      </motion.div>
+      </div>
       <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify">
           The following projects represent a selection of my work, showcasing my skills and experience through
           real-world examples. Each project is briefly described to highlight its key contributions.
-        </motion.p>
+        </p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
