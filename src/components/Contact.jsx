@@ -33,6 +33,7 @@ const Contact = () => {
   const [emailError, setEmailError] = useState("");
   const [nameError, setNameError] = useState("");
   const [confirmation, setConfirmation] = useState("");
+  const [hasError, setHasError] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -91,6 +92,7 @@ const Contact = () => {
       .catch((error) => {
         setLoading(false);
         console.error(error);
+        setHasError(true);
         setConfirmation("Please email me directly at alisajjad57@outlook.com :/");
       });
   };
@@ -137,7 +139,17 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          {confirmation && <p className="text-green-500">{confirmation}</p>}
+          {hasError ? (
+            <p className="text-red-500">
+              Please email me directly at{" "}
+              <a href="mailto:alisajjad57@outlook.com" className="text-[#915EFF] underline hover:text-[#7c4dff]">
+                alisajjad57@outlook.com
+              </a>
+              .
+            </p>
+          ) : (
+            confirmation && <p className="text-green-500">{confirmation}</p>
+          )}
         </form>
       </motion.div>
 

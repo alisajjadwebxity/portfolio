@@ -9,8 +9,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const toggleResume = () => {
-    const resumeUrl = "/Resume.pdf";
-    window.open(resumeUrl);
+    window.open(`${import.meta.env.BASE_URL}/Resume.pdf`, "_blank");
   };
 
   useEffect(() => {
@@ -20,7 +19,7 @@ const Navbar = () => {
   }, [toggle]);
 
   const renderNavLinks = (isSecondary) => (
-    <ul className={`list-none ${isSecondary ? "flex sm:hidden" : "hidden sm:flex"} flex-row gap-6`}>
+    <ul className={`list-none ${isSecondary ? "flex sm:hidden" : "hidden sm:flex"} flex-row items-center gap-6`}>
       {navLinks.map((link) => (
         <li
           key={link.id}
@@ -37,13 +36,18 @@ const Navbar = () => {
           <a href={`#${link.id}`}>{link.title}</a>
         </li>
       ))}
-      {/* <li
+      <li
         className={`text-${
           isSecondary ? "secondary" : "white"
-        } hover:text-white text-[20px] font-medium cursor-pointer`}
+        } hover:text-white text-[18px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
-      </li> */}
+        <button
+          className="bg-[#915EFF] hover:bg-[#7c4dff] text-white px-3 py-1.5 rounded-md transition-all duration-300 shadow-md hover:shadow-lg"
+          onClick={toggleResume}
+        >
+          Resume
+        </button>
+      </li>
     </ul>
   );
 
