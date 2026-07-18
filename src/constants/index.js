@@ -84,6 +84,7 @@ export const experiences = [
     points: [
       "Provide fast and secure websites to clients along with technical support.",
       "Optimized website performance, troubleshot and resolved complex technical issues.",
+      "Performed website migrations and ongoing maintenance to ensure reliability.",
     ],
   },
   {
@@ -94,7 +95,7 @@ export const experiences = [
     date: "May 2019 - Mar 2023",
     points: [
       "Work with clients to understand their requirements and provide solutions.",
-      "Convert PSD, Figma, and XD designs into responsive WordPress websites.",
+      "Convert PSD, Figma, and XD designs into responsive websites.",
       "Build pixel-perfect, mobile-friendly, and cross-browser compatible layouts.",
       "Improve search engine rankings through technical SEO best practices.",
     ],
