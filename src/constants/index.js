@@ -80,7 +80,7 @@ export const experiences = [
     company_name: "eTekStudio",
     icon: etekstudio,
     iconBg: "#161329",
-    date: "Apr 2023 - Sep 2023",
+    date: "Apr 2023 - Feb 2024",
     points: [
       "Provide fast and secure websites to clients along with technical support.",
       "Optimized website performance, troubleshot and resolved complex technical issues.",
