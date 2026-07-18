@@ -36,7 +36,10 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
+      >
         Experienced Web Developer with a strong history in custom plugin development, theme customization, performance
         optimization, and modern web application development. Deep expertise in WordPress architecture, hooks, REST API
         integrations, along with JavaScript, React, and nodejs for building scalable, high-performance web applications.
