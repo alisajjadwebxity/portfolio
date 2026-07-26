@@ -44,8 +44,8 @@ export const navLinks = [
 export const services = [
   { title: "WordPress", icon: wordpress },
   { title: "JavaScript", icon: js },
-  { title: "PHP", icon: php },
   { title: "Python", icon: python },
+  { title: "Linux", icon: linux },
 ];
 
 export const technologies = [
@@ -73,6 +73,8 @@ export const experiences = [
       "Successfully delivered large-scale custom development projects from concept to deployment, ensuring reliable solutions.",
       "Work under pressure to meet hard deadlines, managing complex requirements and ensuring timely, high-quality execution.",
       "Working with a team to create custom plugins that meet client's requirements and exceed expectations.",
+      "Built AI-powered web applications with LLM integrations, RAG pipelines, vector databases, and intelligent search experiences.",
+      "Developed headless WordPress solutions using REST API with modern frontend frameworks for high-performance applications.",
     ],
   },
   {
@@ -88,7 +90,7 @@ export const experiences = [
     ],
   },
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     company_name: "Freelancer",
     icon: freelancer,
     iconBg: "#161329",
@@ -97,6 +99,7 @@ export const experiences = [
       "Work with clients to understand their requirements and provide solutions.",
       "Convert PSD, Figma, and XD designs into responsive websites.",
       "Build pixel-perfect, mobile-friendly, and cross-browser compatible layouts.",
+      "Engineered scalable full-stack web applications with secure API integrations, and optimized architectures.",
       "Improve search engine rankings through technical SEO best practices.",
     ],
   },
