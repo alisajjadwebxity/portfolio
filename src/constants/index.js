@@ -94,7 +94,7 @@ export const experiences = [
     company_name: "Freelancer",
     icon: freelancer,
     iconBg: "#161329",
-    date: "May 2019 - Mar 2023",
+    date: "May 2020 - Mar 2023",
     points: [
       "Work with clients to understand their requirements and provide solutions.",
       "Convert PSD, Figma, and XD designs into responsive websites.",
