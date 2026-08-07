@@ -84,6 +84,8 @@ export const experiences = [
     iconBg: "#161329",
     date: "Apr 2023 - Feb 2024",
     points: [
+      "Convert PSD, Figma, and XD designs into responsive websites.",
+      "Build pixel-perfect, mobile-friendly, and cross-browser compatible layouts.",
       "Provide fast and secure websites to clients along with technical support.",
       "Optimized website performance, troubleshot and resolved complex technical issues.",
       "Performed website migrations and ongoing maintenance to ensure reliability.",
@@ -97,8 +99,6 @@ export const experiences = [
     date: "May 2020 - Mar 2023",
     points: [
       "Work with clients to understand their requirements and provide solutions.",
-      "Convert PSD, Figma, and XD designs into responsive websites.",
-      "Build pixel-perfect, mobile-friendly, and cross-browser compatible layouts.",
       "Engineered scalable full-stack web applications with secure API integrations, and optimized architectures.",
       "Improve search engine rankings through technical SEO best practices.",
     ],
