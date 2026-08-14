@@ -33,7 +33,11 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -72,9 +76,11 @@ export const experiences = [
     points: [
       "Successfully delivered large-scale custom development projects from concept to deployment, ensuring reliable solutions.",
       "Work under pressure to meet hard deadlines, managing complex requirements and ensuring timely, high-quality execution.",
-      "Working with a team to create custom plugins that meet client's requirements and exceed expectations.",
-      "Built AI-powered web applications with LLM integrations, RAG pipelines, vector databases, and intelligent search experiences.",
+      "Supporting clients by troubleshooting technical issues, providing solutions, and developing custom plugins to meet business requirements.",
+      "Delegated and supervised development tasks across team members, ensuring clear responsibilities, efficient execution, and consistent delivery standards.",
+      "Oversaw and developed projects with budgets of up to $24,000, managing requirements, resources, timelines, and overall project delivery.",
       "Developed headless WordPress solutions using REST API with modern frontend frameworks for high-performance applications.",
+      "Built AI-powered web applications with LLM integrations, RAG pipelines, vector databases, and intelligent search experiences.",
     ],
   },
   {
@@ -86,9 +92,11 @@ export const experiences = [
     points: [
       "Convert PSD, Figma, and XD designs into responsive websites.",
       "Build pixel-perfect, mobile-friendly, and cross-browser compatible layouts.",
+      "Work with a team to create custom solutions that meet client requirements and exceed expectations.",
       "Provide fast and secure websites to clients along with technical support.",
-      "Optimized website performance, troubleshot and resolved complex technical issues.",
-      "Performed website migrations and ongoing maintenance to ensure reliability.",
+      "Optimize website performance, troubleshoot and resolve complex technical issues.",
+      "Perform server migrations and ongoing maintenance to ensure reliability.",
+      "Conduct technical audits and optimize websites for SEO, improving performance, accessibility, and search visibility.",
     ],
   },
   {

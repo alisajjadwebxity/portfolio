@@ -36,7 +36,7 @@ const Navbar = () => {
           <a href={`#${link.id}`}>{link.title}</a>
         </li>
       ))}
-      <li
+      {/* <li
         className={`text-${
           isSecondary ? "secondary" : "white"
         } hover:text-white text-[18px] font-medium cursor-pointer`}
@@ -47,7 +47,7 @@ const Navbar = () => {
         >
           Resume
         </button>
-      </li>
+      </li> */}
     </ul>
   );
 
